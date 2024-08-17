@@ -1,0 +1,19 @@
+package constructor;
+
+public class Person {
+	String name;
+	float height;
+	float weight;
+	
+	public Person() {} // 자바 컴파일러가 자동으로 제공하는 디폴드 생성자. 생성자가 하나도 없는 경우에만 제공.
+	
+	public Person(String pname) {
+		name = pname;
+	}//사람 이름을 매개변수로 입력받아서 Person 클래스를 생성하는 생성자. 이것만 입력하면 디폴트 생성자가 없어서 new를 쓸 때 오류남.
+	
+	public Person(String pname,float pheight, float pweight) {
+		name = pname;
+		height = pheight;
+		weight = pweight;
+	}
+}
