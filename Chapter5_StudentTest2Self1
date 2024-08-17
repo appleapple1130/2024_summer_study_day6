@@ -1,0 +1,20 @@
+package classpart;
+
+public class StudentTest2Self1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Man ManJames = new Man();
+		ManJames.age = 40;
+		ManJames.name = "James";
+		ManJames.isMarried = true;
+		ManJames.childNum = 3;
+		
+		System.out.println("나이 : "+ManJames.age+"살");
+		System.out.println("이름 : "+ManJames.name);
+		System.out.println("결혼여부 : "+ManJames.isMarried);
+		System.out.println("자녀수 : "+ManJames.childNum+"명");
+		
+	}
+
+}
