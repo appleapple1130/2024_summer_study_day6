@@ -1,0 +1,18 @@
+package classpart;
+
+public class StudentTest2Self2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Order Order1 = new Order();
+		Order1.orderNum="201803120001";
+		Order1.ID="abc123";
+		Order1.orderDate="2018년 3월 12일";
+		Order1.name="홍길순";
+		Order1.goodsNum="PD0345-12";
+		Order1.address="서울시 영등포구 여의도동 20번지";
+		
+		Order1.printOrderInfo();
+	}
+
+}
