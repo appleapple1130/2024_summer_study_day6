@@ -1,0 +1,10 @@
+package constructor;
+
+public class PersonTestSelf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PersonSelf person = new PersonSelf("이순신",168,58);
+	}
+
+}
